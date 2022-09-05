@@ -1,38 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
+/* flex CSS */
 .wrapper{
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
+  flex-flow: column wrap;
+  /*background-color: rebeccapurple;*/
+  height: 100%;
+  flex: 1 100%;
+  padding: 30px;
 }
 
-.aboutBlock{
+.filler{
+  background-color: white;
+}
+
+.top{
+  font-family: 'Gaegu', sans-serif;
+  background: #b189cf;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px transparent;
+  font-size: 1em;
+}
+
+.aboutContainer{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 60%;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  padding: 36px 0px;
-  z-index: 1;
-}
-
-.aboutBio{
-  flex: 0 0 50%
-}
-
-.aboutPic{
-  flex: 0 0 50%
-}
-
-header{
-  display: inline-block;
+  align-items: center;
 
 }
 
+.aboutContainer .leftAbout{
+  flex: 3 1 0;
+  padding: 10px;
+}
 
+.aboutContainer .rightAbout{
+  flex: 1 1 0;
+}
+
+.wrapper .aboutContainer .aboutItem{
+  /*background-color: black;*/
+}
+
+.icons{
+  padding: 3px;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 30px;
+}
+
+/* unvisited link */
+a:link {
+  color: #b189cf;
+}
+
+/* visited link */
+a:visited {
+  color: #b189cf;
+}
+
+/* mouse over link */
+a:hover {
+  color: #b189cf;
+}
+
+/* selected link */
+a:active {
+  color: #b189cf;
+}
+
+
+
+/* aesthetic CSS */
+.sameLine{
+  display: inline;
+}
 
 .highlight{
   background-color: #b189cf;
@@ -40,7 +85,7 @@ header{
 }
 
 .hello{
-  background: linear-gradient(to right, #fa90aa 25%, #330867 75%);
+  background: linear-gradient(to right, #fa90aa 0%, #330867 100%);
   -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }

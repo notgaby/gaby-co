@@ -6,6 +6,6 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <App />
+    <App style={{ backgroundColor: "#7cb48f", flex: 1 }}/>
   </>
 );
