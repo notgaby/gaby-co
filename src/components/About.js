@@ -22,7 +22,7 @@ const Bio = () => (
         Im an upcoming <span className='underline'>December 2022 graduate</span> from the University of Houston Honors College with a major in Computer Science
         with minors in Math and Data within Society!
         <br/> <br/>
-        I have interned with <span className='underline'>Liberty Mutual Insurance</span> and <span className='underline'>NerdWallet</span> in the past alongside prep and insight programs
+        I have interned with <span className='underline'>NerdWallet</span> and <span className='underline'>Liberty Mutual Insurance</span> in the past alongside prep and insight programs
         from IBM, Meta, Citibank, Blackrock, CodePath, and RewritingtheCode.
         <br/>
         <span className='highlight'>
@@ -86,7 +86,7 @@ const About = () => {
             </div>
 
             <div className='footer'>
-                <small> Made with <ShowEmoji symbol="❤️"/> using React.js + CSS</small>
+                <small> Made with <ShowEmoji symbol="❤️"/> using React + CSS</small>
             </div>
 
 
