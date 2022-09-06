@@ -20,7 +20,7 @@ const ShowEmoji = (props) => (
 const Bio = () => (
     <body>
         Im an upcoming December 2022 graduate from the University of Houston Honors College with a major in Computer Science
-        with minors in math and data within society!
+        with minors in Math and Data within Society!
         <br/> <br/>
         I have interned with Liberty Mutual Insurance and NerdWallet in the past alongside prep and insight programs
         from IBM, Meta, Citibank, Blackrock, CodePath, and RewritingtheCode.
@@ -86,7 +86,6 @@ const About = () => {
             </div>
         </div>
     )
-
 }
 
 export default About;
