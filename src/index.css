@@ -1,35 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
-@media (min-width: 858px) {
-  html {
-      font-size: 12px;
-  }
-}
-
-@media (min-width: 780px) {
-  html {
-      font-size: 11px;
-  }
-}
-
-@media (min-width: 702px) {
-  html {
-      font-size: 10px;
-  }
-}
-
-@media (min-width: 624px) {
-  html {
-      font-size: 9px;
-  }
-}
-
-@media (max-width: 623px) {
-  html {
-      font-size: 8px;
-  }
-}
 
 /* flex CSS */
 .wrapper{
@@ -66,6 +37,8 @@
   width: 100%;
   display: flex;
   flex-flow: row wrap;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
   justify-content: center;
   
 
@@ -73,9 +46,6 @@
 
 .aboutContainer .leftAbout{
   flex: 1 1 0;
-  padding-left: 13%;
-  padding-right: 13%;
-  padding-top: 3%;
 }
 
 .aboutContainer .rightAbout{
@@ -113,9 +83,11 @@ a:active {
 
 /* aesthetic CSS */
 
+
+
 #responsive{
   width: 100%;
-  max-width: 620px;
+  min-width: 425px;
   height: auto;
 }
 
@@ -140,8 +112,29 @@ h1{
   margin: 0;
 }
 
-
 body{
   font-family: 'Gaegu', cursive;
-  font-size: 25px;
+  font-size: 30px;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 414px) {
+  #responsive{
+    width: 50%;
+    min-width: 425px;
+    height: auto;
+  }
+
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    margin: 0;
+  }
+  
+  
+  body{
+    font-family: 'Gaegu', cursive;
+    font-size: 25px;
+  }
 }

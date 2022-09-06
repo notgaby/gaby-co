@@ -20,6 +20,7 @@ const ShowEmoji = (props) => (
   )
   
 const About = () => {
+    const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
     return(
         <div className='wrapper'>
             <div className='buttons'>
@@ -44,7 +45,9 @@ const About = () => {
                             </h1>
                             <h1>
                             <div className='icons'>
-                                <ShowEmoji symbol="🍮🎨☕️"/>
+
+                                
+
                                 <a href='https://www.linkedin.com/in/gabrielleco/'><FontAwesomeIcon style={{padding: '2px', fontSize: '40px'}} icon= {faLinkedin} /></a>
                                 <a href='https://github.com/notgaby'><FontAwesomeIcon style={{padding: '2px', fontSize: '40px'}} icon= {faGithub} /></a>
                                 <a href='https://www.etsy.com/shop/gabcodesigns'><FontAwesomeIcon style={{padding: '2px', fontSize: '40px'}} icon= {faEtsy} /></a>
@@ -67,16 +70,14 @@ const About = () => {
                             I am currently looking for full-time software engineering opportunities 
                             starting 2023<ShowEmoji symbol="✨"/></span>
                             <br/> <br/>
-                            Outside of University, I spend time exploring coffee shops, designing for my Etsy shop, and making flan :)
+                            <p>
+                                Outside of University, I spend time exploring coffee shops <ShowEmoji symbol="🍮"/>, 
+                                designing for my Etsy shop <ShowEmoji symbol="🎨"/>, and making flan <ShowEmoji symbol="🍮"/> :)
+                            </p>
                         </body>
 
                 </div>
             </div>
-
-            <div className='footer'>
-                made with <ShowEmoji symbol="❤️"/> using JavaScript + React + CSS
-            </div>
-            
         </div>
     )
 
