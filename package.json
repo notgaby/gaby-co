@@ -1,7 +1,7 @@
 {
   "name": "gaby-co",
   "version": "0.1.0",
-  "homepage": "https://notgaby.github.io/gaby-co/",
+  "homepage": "https://gabrielle-co.dev",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
