@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gaby-co/static/css/main.859d3368.css",
+    "main.css": "/gaby-co/static/css/main.ff9c73b7.css",
     "main.js": "/gaby-co/static/js/main.dd96bfb0.js",
     "static/media/me.png": "/gaby-co/static/media/me.02142d76035f4c062457.png",
     "static/media/Gabrielle_Co_Resume.pdf": "/gaby-co/static/media/Gabrielle_Co_Resume.7d29a0ad24b32d73f17f.pdf",
     "index.html": "/gaby-co/index.html",
-    "main.859d3368.css.map": "/gaby-co/static/css/main.859d3368.css.map",
+    "main.ff9c73b7.css.map": "/gaby-co/static/css/main.ff9c73b7.css.map",
     "main.dd96bfb0.js.map": "/gaby-co/static/js/main.dd96bfb0.js.map"
   },
   "entrypoints": [
-    "static/css/main.859d3368.css",
+    "static/css/main.ff9c73b7.css",
     "static/js/main.dd96bfb0.js"
   ]
 }
