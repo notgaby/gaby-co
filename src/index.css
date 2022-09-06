@@ -7,12 +7,20 @@
   flex-flow: column wrap;
   /*background-color: rebeccapurple;*/
   height: 100%;
+  width: 100%;
   flex: 1 100%;
   padding: 30px;
+  align-items: center;
 }
 
-.filler{
+.buttons{
   background-color: white;
+  align-self: flex-end;
+  padding-right: 2%;
+}
+
+.footer{
+  padding: 3%;
 }
 
 .top{
@@ -25,6 +33,7 @@
 }
 
 .aboutContainer{
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -33,16 +42,14 @@
 }
 
 .aboutContainer .leftAbout{
-  flex: 3 1 0;
-  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0;
+  padding-left: 13%;
 }
 
 .aboutContainer .rightAbout{
-  flex: 1 1 0;
-}
-
-.wrapper .aboutContainer .aboutItem{
-  /*background-color: black;*/
+  flex: 1.5 1 0;
 }
 
 .icons{
@@ -54,12 +61,12 @@
 
 /* unvisited link */
 a:link {
-  color: #b189cf;
+  color: black;
 }
 
 /* visited link */
 a:visited {
-  color: #b189cf;
+  color: black;
 }
 
 /* mouse over link */
@@ -69,12 +76,19 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: #b189cf;
+  color: black;
 }
 
 
 
 /* aesthetic CSS */
+
+#responsive{
+  width: 100%;
+  max-width: 620px;
+  height: auto;
+}
+
 .sameLine{
   display: inline;
 }

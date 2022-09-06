@@ -22,7 +22,7 @@ const ShowEmoji = (props) => (
 const About = () => {
     return(
         <div className='wrapper'>
-            <div className='filler' style={{ flex: 100}}>
+            <div className='buttons'>
                 <a href={pdf} without rel="noopener noreferrer" target="_blank">
                     <button class="top">Resume</button>
                 </a>
@@ -30,6 +30,12 @@ const About = () => {
 
             <div className='aboutContainer'>
                 <div className='leftAbout'>
+                    <div className='aboutItem' style={{color: 'red'}}>
+                        <img id='responsive' title="me" src={selfie} alt="drawing of me" />
+                    </div>
+                </div>
+
+                <div className='rightAbout'>
                     <div className='aboutItem' style={{color: 'green'}}>
                         <h1 className='hello'>  
                                 Howdy,
@@ -60,15 +66,15 @@ const About = () => {
                             <ShowEmoji symbol="✨"/>
                             I am currently looking for full-time software engineering opportunities 
                             starting 2023<ShowEmoji symbol="✨"/></span>
+                            <br/> <br/>
+                            Outside of University, I spend time exploring coffee shops, designing for my Etsy shop, and making flan :)
                         </body>
 
+                </div>
+            </div>
 
-                </div>
-                <div className='rightAbout'>
-                    <div className='aboutItem' style={{color: 'red'}}>
-                        <img title="me" src={selfie} width= {620} height = {687} alt="drawing of me" />
-                    </div>
-                </div>
+            <div className='footer'>
+                made with <ShowEmoji symbol="❤️"/> using JavaScript + React + CSS
             </div>
             
         </div>
