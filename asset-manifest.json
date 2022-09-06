@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.bb39a6d6.css",
-    "main.js": "/static/js/main.d787c9a1.js",
+    "main.js": "/static/js/main.6a82a17e.js",
     "static/media/me.png": "/static/media/me.02142d76035f4c062457.png",
     "static/media/Gabrielle_Co_Resume.pdf": "/static/media/Gabrielle_Co_Resume.fc91de85a14101ffe897.pdf",
     "index.html": "/index.html",
     "main.bb39a6d6.css.map": "/static/css/main.bb39a6d6.css.map",
-    "main.d787c9a1.js.map": "/static/js/main.d787c9a1.js.map"
+    "main.6a82a17e.js.map": "/static/js/main.6a82a17e.js.map"
   },
   "entrypoints": [
     "static/css/main.bb39a6d6.css",
-    "static/js/main.d787c9a1.js"
+    "static/js/main.6a82a17e.js"
   ]
 }
