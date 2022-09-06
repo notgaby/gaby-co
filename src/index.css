@@ -16,6 +16,7 @@
 }
 
 .buttons{
+  font-family: 'Montserrat', sans-serif;
   background-color: white;
   align-self: flex-end;
   padding-right: 2%;
