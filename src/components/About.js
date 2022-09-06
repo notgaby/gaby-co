@@ -5,6 +5,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faFontAwesome, faGithub, faEtsy } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import Typewriter from 'typewriter-effect';
 
 //&nbsp;
 const ShowEmoji = (props) => (
@@ -38,10 +39,15 @@ const About = () => {
 
                 <div className='rightAbout'>
                     <div className='aboutItem' style={{color: 'green'}}>
+
                         <h1 className='hello'>  
-                                Howdy,
-                                <br/>
-                                I'm Gaby!
+                        <Typewriter 
+                        options={{autoStart: true, loop: true}}
+                        onInit={(typewriter) => {
+                            typewriter.typeString("Howdy, \n\nI'm Gaby!")
+                            .start()
+                            .pauseFor(2000);       
+                        }}/>
                             </h1>
                             <h1>
                             <div className='icons'>
