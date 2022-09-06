@@ -86,7 +86,7 @@ const About = () => {
             </div>
 
             <div className='footer'>
-                <small> Made with <ShowEmoji symbol="❤️"/> using JavaScript + React + CSS</small>
+                <small> Made with <ShowEmoji symbol="❤️"/> using React.js + CSS</small>
             </div>
 
 
