@@ -19,17 +19,17 @@ const ShowEmoji = (props) => (
 
 const Bio = () => (
     <body>
-        Im an upcoming December 2022 graduate from the University of Houston Honors College with a major in Computer Science
+        Im an upcoming <span className='underline'>December 2022 graduate</span> from the University of Houston Honors College with a major in Computer Science
         with minors in Math and Data within Society!
         <br/> <br/>
-        I have interned with Liberty Mutual Insurance and NerdWallet in the past alongside prep and insight programs
+        I have interned with <span className='underline'>Liberty Mutual Insurance</span> and <span className='underline'>NerdWallet</span> in the past alongside prep and insight programs
         from IBM, Meta, Citibank, Blackrock, CodePath, and RewritingtheCode.
         <br/>
         <span className='highlight'>
         <ShowEmoji symbol="✨"/>
         I am currently looking for full-time software engineering opportunities 
         starting 2023<ShowEmoji symbol="✨"/></span>
-        <br/> <br/>
+        <br/>
         <p>
             Outside of University, I spend time exploring coffee shops <ShowEmoji symbol="☕️"/>, 
             designing for my Etsy shop <ShowEmoji symbol="🎨"/>, and making flan <ShowEmoji symbol="🍮"/> :)
@@ -84,6 +84,12 @@ const About = () => {
                     <Bio />
                 </div>
             </div>
+
+            <div className='footer'>
+                <small> Made with <ShowEmoji symbol="❤️"/> using JavaScript + React + CSS</small>
+            </div>
+
+
         </div>
     )
 }

@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
-
-
 /* flex CSS */
 .wrapper{
   display: flex;
@@ -22,7 +20,7 @@
 }
 
 .footer{
-  padding: 3%;
+  color:#b189cf
 }
 
 .top{
@@ -41,8 +39,6 @@
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   justify-content: center;
-  
-
 }
 
 .aboutContainer .leftAbout{
@@ -81,7 +77,6 @@ a:active {
 }
 
 
-
 /* aesthetic CSS */
 
 #responsive{
@@ -97,6 +92,11 @@ a:active {
 .highlight{
   background-color: #b189cf;
   padding:0.1em 0.2em;
+}
+
+.underline{
+  text-decoration-line: underline;
+  text-decoration-color: #fcccd8;
 }
 
 .hello{
